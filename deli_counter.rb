@@ -1,6 +1,10 @@
 other_deli = ["Logan", "Avi", "Spencer"]
 
+<<<<<<< HEAD
 def line (katz_deli)
+=======
+def katz_deli (line)
+>>>>>>> 93639ed503569fcad41bab91920d2540d816a929
   if katz_deli.count > 1
     output = "The line is currently:"
     katz_deli.each_with_index do |name, index|
@@ -12,6 +16,7 @@ def line (katz_deli)
   end
 end
 
+<<<<<<< HEAD
 line(other_deli)
 
 def take_a_number(katz_deli, name)
@@ -39,3 +44,6 @@ def now_serving(katz_deli)
     # shift to removes the first element of the nextinline array and returns it (shifting all other elements down by one). Returns nil if the array is empty.
   end
 end
+=======
+line(other_deli)
+>>>>>>> 93639ed503569fcad41bab91920d2540d816a929
